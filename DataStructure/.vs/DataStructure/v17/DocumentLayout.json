@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Coplexity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\Coplexity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Complexity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\Complexity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\OT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\OT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Coplexity.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Coplexity.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\Coplexity.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Coplexity.cpp",
+              "RelativeToolTip": "DataStructure\\Coplexity.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-10T07:44:26.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Complexity.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Complexity.h",
+              "RelativeDocumentMoniker": "DataStructure\\Complexity.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Complexity.h",
+              "RelativeToolTip": "DataStructure\\Complexity.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-10T07:43:45.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OT.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\OT.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\OT.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\OT.cpp",
+              "RelativeToolTip": "DataStructure\\OT.cpp",
+              "ViewState": "AQIAABoAAAAAAAAAAAAmwDIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-10T07:08:20.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Main.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\Main.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Main.cpp",
+              "RelativeToolTip": "DataStructure\\Main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-10T07:06:42.611Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
