@@ -1,12 +1,13 @@
 #include <iostream>
 #include <vector>
 #include "complexity.h"
+#include "lectures.h"
 
 int main()
 {
-	std::cout << "자료 구조" << std::endl;
+	std::cout << "ÀÚ·á ±¸Á¶" << std::endl;
 
-	lecture1();
-
-	Example01();
+	//lecture1();
+	//Example01();
+	lecture2();
 }
