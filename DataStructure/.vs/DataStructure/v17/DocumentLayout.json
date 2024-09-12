@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "DataStructure\\DoubliyLinkedList.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\DoubliyLinkedList.cpp",
               "RelativeToolTip": "DataStructure\\DoubliyLinkedList.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIwAAAABAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAADsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-12T07:17:05.87Z",
               "EditorCaption": ""
@@ -74,7 +74,7 @@
               "RelativeDocumentMoniker": "DataStructure\\DoubliyLinkedList.h",
               "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\DoubliyLinkedList.h",
               "RelativeToolTip": "DataStructure\\DoubliyLinkedList.h",
-              "ViewState": "AQIAABwAAAAAAAAAAAAmwB4AAAAYAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwB4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-12T07:04:08.597Z",
               "EditorCaption": ""
@@ -89,8 +89,7 @@
               "RelativeToolTip": "DataStructure\\Main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-11T08:45:55.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T08:45:55.794Z"
             },
             {
               "$type": "Document",
@@ -102,8 +101,7 @@
               "RelativeToolTip": "DataStructure\\LinkedList.h",
               "ViewState": "AQIAACEAAAAAAAAAAAAAADkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-11T07:29:16.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T07:29:16.669Z"
             },
             {
               "$type": "Document",
@@ -115,8 +113,7 @@
               "RelativeToolTip": "DataStructure\\LinkedList.cpp",
               "ViewState": "AQIAAAEAAAAAAAAAAAAmwA8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-11T08:14:10.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T08:14:10.178Z"
             }
           ]
         }

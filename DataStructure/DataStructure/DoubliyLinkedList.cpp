@@ -15,7 +15,8 @@ void DoubliyLinkedList::PushFront(const string _data)
 
 	// 그 이외의 경우 - 맨 앞에 헤드 노드를 배치하고, 기존 헤드를 새로운 헤드 노드로 변경한다.
 	newNode->pPrev = nullptr;   // 새로운 노드의 prev 비어있어야한다.
-	newNode->pNext = pHead;     // 새로운 노드의 next 기존의 head여야 한다.    
+	newNode->pNext = pHead;     // 새로운 노드의 next 기존의 head여야 한다. 
+	pHead->pPrev = newNode;		// 현재 헤드의 이전은 새로운 노드 위에줄이랑 링크를 만드는개념
 	pHead = newNode;           	// 새로운 머리를 새로운 노드로 변경해준다.
 
 	iCount++;
@@ -47,7 +48,7 @@ void DoubliyLinkedList::Insert(int index, const string _data)
 {
 	// iCount  0보다 작으면 iCount
 
-	if (index < 0 || index >= iCount)
+	if (index < 0 || index > iCount)
 	{
 		cout << "인덱스 에러 발생!" << endl;
 		return;
@@ -56,7 +57,7 @@ void DoubliyLinkedList::Insert(int index, const string _data)
 	{
 		PushFront(_data);
 	}
-	else if (index == iCount) 	// index iCount - 1 (PushBack 함수 실행)
+	else if (index == iCount) 	// index == iCount  (PushBack 함수 실행)
 	{
 		PushBack(_data);
 	}
