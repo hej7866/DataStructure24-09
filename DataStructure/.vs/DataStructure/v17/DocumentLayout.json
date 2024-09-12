@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\DoubliyLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\DoubliyLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\lecture3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\lecture3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\DoubliyLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\DoubliyLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\lecture2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\lecture2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoubliyLinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\DoubliyLinkedList.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\DoubliyLinkedList.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\DoubliyLinkedList.cpp",
+              "RelativeToolTip": "DataStructure\\DoubliyLinkedList.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-12T07:17:05.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lecture3.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\lecture3.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\lecture3.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\lecture3.cpp",
+              "RelativeToolTip": "DataStructure\\lecture3.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-12T07:04:36.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoubliyLinkedList.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\DoubliyLinkedList.h",
+              "RelativeDocumentMoniker": "DataStructure\\DoubliyLinkedList.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\DoubliyLinkedList.h",
+              "RelativeToolTip": "DataStructure\\DoubliyLinkedList.h",
+              "ViewState": "AQIAABwAAAAAAAAAAAAmwB4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-12T07:04:08.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,61 +87,35 @@
               "RelativeDocumentMoniker": "DataStructure\\Main.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Main.cpp",
               "RelativeToolTip": "DataStructure\\Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-11T08:45:55.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LinkedList.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\LinkedList.cpp",
-              "RelativeDocumentMoniker": "DataStructure\\LinkedList.cpp",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\LinkedList.cpp",
-              "RelativeToolTip": "DataStructure\\LinkedList.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-11T08:14:10.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "lectures.h",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\lectures.h",
-              "RelativeDocumentMoniker": "DataStructure\\lectures.h",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\lectures.h",
-              "RelativeToolTip": "DataStructure\\lectures.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAIAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-11T08:00:21.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "LinkedList.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\LinkedList.h",
               "RelativeDocumentMoniker": "DataStructure\\LinkedList.h",
               "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\LinkedList.h",
               "RelativeToolTip": "DataStructure\\LinkedList.h",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADkAAAAiAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-11T07:29:16.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "lecture2.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\lecture2.cpp",
-              "RelativeDocumentMoniker": "DataStructure\\lecture2.cpp",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\lecture2.cpp",
-              "RelativeToolTip": "DataStructure\\lecture2.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "DocumentIndex": 5,
+              "Title": "LinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\LinkedList.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\LinkedList.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\LinkedList.cpp",
+              "RelativeToolTip": "DataStructure\\LinkedList.cpp",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwA8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-11T08:01:39.811Z",
+              "WhenOpened": "2024-09-11T08:14:10.178Z",
               "EditorCaption": ""
             }
           ]

@@ -13,33 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\강의">
+      <UniqueIdentifier>{35de5ab7-b16a-4bf0-9d99-0e19edbee1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료구조">
+      <UniqueIdentifier>{8dfbc075-576c-4122-a349-def8377e886a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\강좌">
+      <UniqueIdentifier>{ef8f893f-752f-4f10-b4ae-aa0104823afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\자료구조">
+      <UniqueIdentifier>{0bd39f2e-b3d2-4768-964c-329b762246a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="OT.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="lecture2.cpp">
+      <Filter>소스 파일\강의</Filter>
+    </ClCompile>
+    <ClCompile Include="lecture3.cpp">
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="Complexity.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="lecture2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\자료구조</Filter>
     </ClCompile>
     <ClCompile Include="LinkedList.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubliyLinkedList.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="OT.cpp">
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="lectures.h">
+      <Filter>헤더 파일\강좌</Filter>
+    </ClInclude>
     <ClInclude Include="Complexity.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubliyLinkedList.h">
+      <Filter>헤더 파일\자료구조</Filter>
     </ClInclude>
     <ClInclude Include="LinkedList.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="lectures.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\자료구조</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

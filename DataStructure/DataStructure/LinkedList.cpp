@@ -22,7 +22,6 @@ void ILinkedList::PushFront(const int& _data)
 
 	pNewNode->pNext = pHead;  // 새로운 노드의 next 주소를 head를 가리키도록 만들어라.
 	pHead = pNewNode;         // 기존 head를 새로운 노드로 변경해라
-
 	++iCount; // 자료구조에 들어있는 데이터의 총 갯수
 }
 

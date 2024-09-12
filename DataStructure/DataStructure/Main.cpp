@@ -5,9 +5,10 @@
 
 int main()
 {
-	std::cout << "ÀÚ·á ±¸Á¶" << std::endl;
+	std::cout << "자료 구조" << std::endl;
 
 	//lecture1();
 	//Example01();
-	lecture2();
+	//lecture2();
+	lecture3();
 }
