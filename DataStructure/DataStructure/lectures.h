@@ -1,4 +1,9 @@
 #pragma once
+#include <iostream>
+
+
+using namespace std;
 
 void lecture2();
 void lecture3();
+void lecture4();
