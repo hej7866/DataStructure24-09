@@ -84,7 +84,7 @@ public:
 
 	void BanPlayer(int order)
 	{
-		if (0 <= order <= users.size())
+		if (0 <= order && order <= users.size())
 		{
 			users[order].GetName();
 			cout << "을(를) 추방했습니다." << endl;

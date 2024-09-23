@@ -1,3 +1,2 @@
 ﻿  Main.cpp
-C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\GameRoom.h(87,9): warning C4804: '<=': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
   DataStructure.vcxproj -> C:\Users\USER\Desktop\DataStructure24-09\DataStructure\x64\Debug\DataStructure.exe
