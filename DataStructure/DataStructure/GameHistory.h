@@ -55,7 +55,7 @@ public:
 // SaveLogoutTime(std::string 시간)     push
 // PrintLogoutTime()     pop
 
-void iGameHistoryExample()
+void IGameHistoryExample()
 {
 	// 로그아웃한 이력
 	GameData data1("2024-09-20/17:00");

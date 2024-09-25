@@ -32,7 +32,7 @@ using namespace std;
 *
 *       데이터    : std::string  "1+2"  =  3
 *       규칙1 ->	 규칙2 -> 규칙1 -> 규칙5
-*		스택 공간 :	[  +  ] -> [ ]
+*		스택 공간 :	[  +  ] -> [ ]	
 *       출력 공간 :	12+
 *
 *		먼저 계산해야하는 연산자가 우선순위가 높다(숫자가 크다)
@@ -135,10 +135,9 @@ string changePostFix(string target)
 
 		else if (target[i] == ')')   // 닫는 괄호를 만난다면 s.top() '('만날때까지 pop해라.
 		{
-			stack.pop();
 			while (stack.top() != '(')
 			{
-				prefix += target[i];   // 연산자는 결과에 추가한다.
+				prefix += stack.top();   // 연산자는 결과에 추가한다.
 				stack.pop();
 			}
 			stack.pop();  // '(' 괄호를 pop해서 스택에서 없앤다.
@@ -147,7 +146,7 @@ string changePostFix(string target)
 		{
 			while (!stack.empty() && priority(stack.top()) >= priority(target[i])) // 규칙2 또는 규칙3이 아닐 때(규칙4)  pop
 			{
-				prefix += target[i];
+				prefix += stack.top();
 				stack.pop();
 			}
 
