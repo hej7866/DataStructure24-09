@@ -14,9 +14,9 @@ using namespace std;
 * 
 */
 
-// 구현해야하는 함수
-// 입력 및 삭제 : push pop
-// 입력 값 표현 : empty(), size(), front(), back()
+// 구현해야할 함수
+// 입력 및 삭제 : Push(), Pop() 
+// 필드 값 표현 : Empty(), Size(), Front(), Back() 
 
 template <typename T>
 class ArrayBasedQueue
@@ -246,22 +246,6 @@ void IQueueExample()
 /// 
 /// 언제 사용하면 좋을까? 큐를 반복해서 사용해야 하는데, 그 갯수가 많지 않을 때 사용하면 좋다.
 /// </summary>
-
-class CircularQueue
-{
-private:
-	int iMaxCount;
-
-
-public:
-	// 배열 기반 형태로 큐를 만들어 봅니다.
-
-	// IsFull
-
-	// pop
-
-	// push
-};
 
 
 //  1. 선형 큐의 단점 :  Front, Rear가 계속 증가하고, 재활용이 힘들다. 
