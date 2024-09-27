@@ -33,12 +33,12 @@ private:
 
 	void allocateBlock()   // 블록 생성 함수
 	{
-		blocks.push_back(new T(blockSize));  //   new T(blockSize) -> vector<T*>blocks에 push_back
+		blocks.push_back(new T[blockSize]);  //   new T(blockSize) -> vector<T*>blocks에 push_back
 	}
 
 	void addFrontBlock()   // 앞쪽 블록 추가
 	{
-		blocks.insert(blocks.begin(), new T(blockSize));
+		blocks.insert(blocks.begin(), new T[blockSize]);
 		frontIndex = blockSize - 1;
 	}
 
@@ -112,7 +112,7 @@ public:
 	{
 		if (isEmpty())
 		{
-			std::cout << "덱이 비었습니다." << std::endl;
+			cout << "덱이 비었습니다." << endl;
 			return;
 		}
 		++frontIndex;
@@ -130,7 +130,7 @@ public:
 	{
 		if (isEmpty())
 		{
-			std::cout << "덱이 비었습니다." << std::endl;
+			cout << "덱이 비었습니다." << endl;
 			return;
 		}
 		--backIndex;
