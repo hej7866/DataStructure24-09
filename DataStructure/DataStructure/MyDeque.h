@@ -24,7 +24,7 @@ class MyDeque
 {
 private:
 
-	std::vector<T*> blocks;     // 각 블록을 저장하는 자료구조 , 비연속적인 메모리 관리 방식
+	vector<T*> blocks;     // 각 블록을 저장하는 자료구조 , 비연속적인 메모리 관리 방식
 
 	int blockSize;              // 블록이 최대로 저장할 수 있는 크기
 	int frontIndex;             // 첫번째 블록의 인덱스
@@ -33,23 +33,25 @@ private:
 
 	void allocateBlock()   // 블록 생성 함수
 	{
-		blocks.push_back(new T[blockSize]);  //   new T(blockSize) -> vector<T*>blocks에 push_back
+		blocks.push_back(new T[blockSize]());  //   new T(blockSize) -> vector<T*>blocks에 push_back
+		frontIndex = blockSize - 1;
+		backIndex = 0;
 	}
 
 	void addFrontBlock()   // 앞쪽 블록 추가
 	{
-		blocks.insert(blocks.begin(), new T[blockSize]);
+		blocks.insert(blocks.begin(), new T[blockSize]());
 		frontIndex = blockSize - 1;
 	}
 
 	void addBackBlock()	   // 뒤쪽 블록 추가
 	{
-		blocks.push_back(new T[blockSize]);
+		blocks.push_back(new T[blockSize]());
 		backIndex = 0;
 	}
 
 public:
-	MyDeque(int blockSize = 4) : blockSize(blockSize), frontIndex(0), backIndex(0), iCount(0)     // 생성자 & 소멸자
+	MyDeque(int blockSize = 5) : blockSize(blockSize), frontIndex(0), backIndex(0), iCount(0)     // 생성자 & 소멸자
 	{
 		allocateBlock();
 	}
@@ -60,7 +62,7 @@ public:
 
 		for (T* block : blocks)
 		{
-			delete[] block;
+			delete[] block;	
 		}
 	}
 	//	Accessor
@@ -72,16 +74,16 @@ public:
 	{
 		if (isEmpty())
 		{
-			throw std::out_of_range("덱이 비었음");
+			throw out_of_range("덱이 비었음");
 		}
-		return blocks[0][frontIndex + 1];
+		return blocks[0][frontIndex + 1]; // frontIndex는 이미 감소했으므로, +1 해줘야 현재 값 반환
 	}
 
 	T& getBack() const
 	{
 		if (isEmpty())
 		{
-			throw std::out_of_range("덱이 비었음");
+			throw out_of_range("덱이 비었음");
 		}
 		return blocks.back()[backIndex - 1];
 	}
@@ -139,6 +141,7 @@ public:
 		if (backIndex < 0)
 		{
 			delete[] blocks.back();
+			blocks.pop_back();
 			backIndex = blockSize - 1;
 		}
 
@@ -157,13 +160,13 @@ void IDequeExample()
 	M_Deq.pushFront(5);
 	M_Deq.pushFront(1);
 
-	std::cout << "머리 : " << M_Deq.getFront() << std::endl;
-	std::cout << "꼬리 : " << M_Deq.getBack() << std::endl;
+	cout << "머리 : " << M_Deq.getFront() << endl;
+	cout << "꼬리 : " << M_Deq.getBack() << endl;
 
-	M_Deq.popBack();
-	M_Deq.popFront();
+		M_Deq.popBack();
+		M_Deq.popFront();
 
-	std::cout << "머리 : " << M_Deq.getFront() << std::endl;
-	std::cout << "꼬리 : " << M_Deq.getBack() << std::endl;
+	cout << "머리 : " << M_Deq.getFront() << endl;
+	cout << "꼬리 : " << M_Deq.getBack() << endl;
 
 }
