@@ -1,2 +1,5 @@
 ﻿  Main.cpp
+C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\MyQueue.h(57,1): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
+C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\iterator.h(53,1): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
+C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\iterator.h(53,1): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
   DataStructure.vcxproj -> C:\Users\USER\Desktop\DataStructure24-09\DataStructure\x64\Debug\DataStructure.exe

@@ -27,7 +27,7 @@ int main()
 	//IQueueExample();
 	//CommandSystemExample();
 
-	IDequeExample();
-	//IteratorExample();
+	//IDequeExample();
+	IteratorExample();
 
 }
