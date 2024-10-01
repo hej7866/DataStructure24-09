@@ -9,6 +9,7 @@
 #include "CommandSystem.h"
 #include "MyDeque.h"
 #include "iterator.h"
+#include "heap.h";
 
 int main()
 {
@@ -26,8 +27,10 @@ int main()
 	//lecture6();
 	//IQueueExample();
 	//CommandSystemExample();
-
 	//IDequeExample();
-	IteratorExample();
+	//IteratorExample();
+	PriorityQueueExample();
+	
+	//lecture7();
 
 }
