@@ -12,6 +12,8 @@
 #include "heap.h"
 #include "tree.h"
 #include "set.h"
+#include "MyMap.h"
+#include "hashTable.h"
 
 int main()
 {
@@ -35,6 +37,9 @@ int main()
 	//lecture7();
 
 	//TreeExample();
-	SetExample();
+	//SetExample();
+
+	//mapExample();
+	HashExample();
 
 }
