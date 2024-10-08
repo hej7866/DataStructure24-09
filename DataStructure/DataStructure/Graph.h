@@ -21,6 +21,7 @@
 
 #include <vector>
 #include <iostream>
+#include <set>
 
 using namespace std;
 
@@ -49,9 +50,9 @@ public:
 		{
 			for (int j = 0; j < Vertex; j++)
 			{
-				std::cout << adjMatrix[i][j] << " ";
+				cout << adjMatrix[i][j] << " ";
 			}
-			std::cout << std::endl;
+			cout << endl;
 		}
 	}
 
@@ -79,12 +80,12 @@ public:
 	{
 		for (int i = 0; i < Vertex; i++)
 		{
-			std::cout << "정점 " << i << "의 인접 매트릭스:";
+			cout << "정점 " << i << "의 인접 매트릭스:";
 			for (auto x : adjList[i])
 			{
-				std::cout << " ->" << x;
+				cout << " ->" << x;
 			}
-			std::cout << std::endl;
+			cout << endl;
 		}
 	}
 };
@@ -102,7 +103,7 @@ void GraphExample()
 	//graph_M.printGraphList();
 	graph_L.printGraph();
 
-	std::cout << "Graph Matrix" << std::endl;
+	cout << "Graph Matrix" << endl;
 
 	Graph_Matrix graph_M(5);
 	graph_M.addEdgeMatrix(0, 2);
