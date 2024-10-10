@@ -31,9 +31,7 @@ private:
 	vector<vector<int>> adjMatrix;	  // 그래프들의 연결 관계 정보 표현
 
 public:
-	Graph_Matrix(int vertices) : Vertex(vertices), adjMatrix(vertices, vector<int>(vertices, 0))
-	{
-	}
+	Graph_Matrix(int vertices) : Vertex(vertices), adjMatrix(vertices, vector<int>(vertices, 0)) {}
 
 
 	void addEdgeMatrix(int v1, int v2)
@@ -49,9 +47,9 @@ public:
 		{
 			for (int j = 0; j < Vertex; j++)
 			{
-				std::cout << adjMatrix[i][j] << " ";
+				cout << adjMatrix[i][j] << " ";
 			}
-			std::cout << std::endl;
+			cout << endl;
 		}
 	}
 
@@ -66,7 +64,7 @@ private:
 
 	void recur_DFS(int index) // 0번 검색
 	{
-		std::cout << index << " ";					  // 시작 데이터를 출력
+		cout << index << " ";					  // 시작 데이터를 출력
 		seen.insert(index);                           // 0번 seen 삽입,
 		vector<int>& keys = adjList[index];           // 시작 vertex의 인접 vertex를 찾는다. 1, 0보다 크면 있다.
 
@@ -100,9 +98,9 @@ public:
 		//seen vertex, adjList.size
 
 		if (seen.size() == adjList.size())
-			std::cout << "모든 경로가 연결되어 있습니다." << std::endl;
+			cout << "모든 경로가 연결되어 있습니다." << endl;
 		else
-			std::cout << "모든 경로가 연결되어 있지 않습니다." << std::endl;
+			cout << "모든 경로가 연결되어 있지 않습니다." << endl;
 
 		return seen.size() == adjList.size();
 	}
@@ -111,7 +109,7 @@ public:
 	{
 		seen.clear();
 
-		std::stack<int> s;   // 인접한 vertex 저장 -> 인접한 vertex
+		stack<int> s;   // 인접한 vertex 저장 -> 인접한 vertex
 		s.push(index);
 
 		while (!s.empty())
@@ -121,7 +119,7 @@ public:
 
 			if (seen.find(vertex) == seen.end())  // 중복을 막는다.
 			{
-				std::cout << vertex << " ";
+				cout << vertex << " ";
 				seen.insert(vertex);
 
 				for (auto it = adjList[vertex].rbegin(); it != adjList[vertex].rend(); it++)
@@ -134,16 +132,16 @@ public:
 		}
 
 		if (seen.size() == adjList.size())
-			std::cout << "모든 경로가 연결되어 있습니다." << std::endl;
+			cout << "모든 경로가 연결되어 있습니다." << endl;
 		else
-			std::cout << "모든 경로가 연결되어 있지 않습니다." << std::endl;
+			cout << "모든 경로가 연결되어 있지 않습니다." << endl;
 	}
 
 	void IterBFS(int index)
 	{
 		seen.clear();
 
-		std::queue<int> s;   // 인접한 vertex 저장 -> 인접한 vertex
+		queue<int> s;   // 인접한 vertex 저장 -> 인접한 vertex
 		s.push(index);
 
 		while (!s.empty())
@@ -153,7 +151,7 @@ public:
 
 			if (seen.find(vertex) == seen.end())  // 중복을 막는다.
 			{
-				std::cout << vertex << " ";
+				cout << vertex << " ";
 				seen.insert(vertex);
 
 				for (auto it = adjList[vertex].begin(); it != adjList[vertex].end(); it++)
@@ -166,21 +164,21 @@ public:
 		}
 
 		if (seen.size() == adjList.size())
-			std::cout << "모든 경로가 연결되어 있습니다." << std::endl;
+			cout << "모든 경로가 연결되어 있습니다." << endl;
 		else
-			std::cout << "모든 경로가 연결되어 있지 않습니다." << std::endl;
+			cout << "모든 경로가 연결되어 있지 않습니다." << endl;
 	}
 
 	void printGraph()
 	{
 		for (int i = 0; i < Vertex; i++)
 		{
-			std::cout << "정점 " << i << "의 인접 매트릭스:";
+			cout << "정점 " << i << "의 인접 매트릭스:";
 			for (auto x : adjList[i])
 			{
-				std::cout << " ->" << x;
+				cout << " ->" << x;
 			}
-			std::cout << std::endl;
+			cout << endl;
 		}
 	}
 };
@@ -209,7 +207,7 @@ void GraphExample()
 	graph_L.IterDFS(1);
 	graph_L.IterBFS(1);
 
-	std::cout << "Graph Matrix" << std::endl;
+	cout << "Graph Matrix" << endl;
 
 	Graph_Matrix graph_M(5);
 	graph_M.addEdgeMatrix(0, 2);
