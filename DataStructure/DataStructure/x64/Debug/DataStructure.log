@@ -3,12 +3,13 @@ C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\heap.h(59,1
 C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\heap.h(92,25): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\heap.h(121,37): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\set.h(39,52): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\set.h(65,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\set.h(66,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\set.h(67,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\set.h(71,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\set.h(72,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\set.h(68,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\set.h(69,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\set.h(73,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\set.h(74,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\set.h(75,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\hashTable.h(31,11): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
 C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\MyQueue.h(57,1): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
 C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\iterator.h(53,1): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
 C:\Users\USER\Desktop\DataStructure24-09\DataStructure\DataStructure\iterator.h(53,1): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.

@@ -14,6 +14,7 @@
 #include "set.h"
 #include "MyMap.h"
 #include "hashTable.h"
+#include "Graph.h"
 
 int main()
 {
@@ -38,8 +39,9 @@ int main()
 
 	//TreeExample();
 	//SetExample();
-
 	//mapExample();
-	HashExample();
+	//HashExample();
+
+	GraphExample();
 
 }

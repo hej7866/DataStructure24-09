@@ -21,7 +21,6 @@
 
 #include <vector>
 #include <iostream>
-#include <set>
 
 using namespace std;
 
@@ -50,9 +49,9 @@ public:
 		{
 			for (int j = 0; j < Vertex; j++)
 			{
-				cout << adjMatrix[i][j] << " ";
+				std::cout << adjMatrix[i][j] << " ";
 			}
-			cout << endl;
+			std::cout << std::endl;
 		}
 	}
 
@@ -63,6 +62,23 @@ class Graph_List
 private:
 	int Vertex;  // 정점의 수
 	vector<vector<int>> adjList;	  // 그래프들의 연결 관계 정보 표현
+	set<int> seen;                    // 출력한 노드들을 저장할 자료구조, 중복 탐색 방지
+
+	void recur_DFS(int index) // 0번 검색
+	{
+		std::cout << index << " ";					  // 시작 데이터를 출력
+		seen.insert(index);                           // 0번 seen 삽입,
+		vector<int>& keys = adjList[index];           // 시작 vertex의 인접 vertex를 찾는다. 1, 0보다 크면 있다.
+
+		for (int key : keys)
+		{
+			if (seen.find(key) == seen.end())  // seen에 없는 데이터라면 실행, seen.key 검색, 없는게 true 실행
+			{
+				recur_DFS(key);
+			}
+		}
+	}
+
 
 public:
 	Graph_List(int vertices) : Vertex(vertices)
@@ -76,16 +92,95 @@ public:
 		adjList[v2].push_back(v1);
 	}
 
+	bool RecurDFS()   // Graph DFS 사용해서 모든 경로가 연결되어 있는지 파악하는 함수
+	{
+		seen.clear();
+		recur_DFS(0);
+
+		//seen vertex, adjList.size
+
+		if (seen.size() == adjList.size())
+			std::cout << "모든 경로가 연결되어 있습니다." << std::endl;
+		else
+			std::cout << "모든 경로가 연결되어 있지 않습니다." << std::endl;
+
+		return seen.size() == adjList.size();
+	}
+
+	void IterDFS(int index) //    for( it = begin(), != end(). it++)
+	{
+		seen.clear();
+
+		std::stack<int> s;   // 인접한 vertex 저장 -> 인접한 vertex
+		s.push(index);
+
+		while (!s.empty())
+		{
+			int vertex = s.top();
+			s.pop();
+
+			if (seen.find(vertex) == seen.end())  // 중복을 막는다.
+			{
+				std::cout << vertex << " ";
+				seen.insert(vertex);
+
+				for (auto it = adjList[vertex].rbegin(); it != adjList[vertex].rend(); it++)
+				{
+					if (seen.find(*it) == seen.end())
+						s.push(*it);
+				}
+			}
+
+		}
+
+		if (seen.size() == adjList.size())
+			std::cout << "모든 경로가 연결되어 있습니다." << std::endl;
+		else
+			std::cout << "모든 경로가 연결되어 있지 않습니다." << std::endl;
+	}
+
+	void IterBFS(int index)
+	{
+		seen.clear();
+
+		std::queue<int> s;   // 인접한 vertex 저장 -> 인접한 vertex
+		s.push(index);
+
+		while (!s.empty())
+		{
+			int vertex = s.front();
+			s.pop();
+
+			if (seen.find(vertex) == seen.end())  // 중복을 막는다.
+			{
+				std::cout << vertex << " ";
+				seen.insert(vertex);
+
+				for (auto it = adjList[vertex].begin(); it != adjList[vertex].end(); it++)
+				{
+					if (seen.find(*it) == seen.end())
+						s.push(*it);
+				}
+			}
+
+		}
+
+		if (seen.size() == adjList.size())
+			std::cout << "모든 경로가 연결되어 있습니다." << std::endl;
+		else
+			std::cout << "모든 경로가 연결되어 있지 않습니다." << std::endl;
+	}
+
 	void printGraph()
 	{
 		for (int i = 0; i < Vertex; i++)
 		{
-			cout << "정점 " << i << "의 인접 매트릭스:";
+			std::cout << "정점 " << i << "의 인접 매트릭스:";
 			for (auto x : adjList[i])
 			{
-				cout << " ->" << x;
+				std::cout << " ->" << x;
 			}
-			cout << endl;
+			std::cout << std::endl;
 		}
 	}
 };
@@ -93,17 +188,28 @@ public:
 
 void GraphExample()
 {
-	Graph_List graph_L(5);
-	graph_L.addEdgeList(0, 2);
-	graph_L.addEdgeList(0, 3);
-	graph_L.addEdgeList(1, 3);
+	Graph_List graph_L(7);
+	//graph_L.addEdgeList(0, 2);
+	//graph_L.addEdgeList(0, 3);
+	//graph_L.addEdgeList(1, 3);
+	//graph_L.addEdgeList(1, 4);
+	//graph_L.addEdgeList(2, 4);
+
+	graph_L.addEdgeList(0, 1);
 	graph_L.addEdgeList(1, 4);
+	graph_L.addEdgeList(4, 6);
+	graph_L.addEdgeList(0, 2);
 	graph_L.addEdgeList(2, 4);
+	graph_L.addEdgeList(2, 5);
+	graph_L.addEdgeList(0, 3);
 
 	//graph_M.printGraphList();
 	graph_L.printGraph();
+	graph_L.RecurDFS();
+	graph_L.IterDFS(1);
+	graph_L.IterBFS(1);
 
-	cout << "Graph Matrix" << endl;
+	std::cout << "Graph Matrix" << std::endl;
 
 	Graph_Matrix graph_M(5);
 	graph_M.addEdgeMatrix(0, 2);
@@ -113,6 +219,13 @@ void GraphExample()
 	graph_M.addEdgeMatrix(2, 4);
 
 	graph_M.printGraph();
+
+	//vector<vector<int>> example
+	//{
+	//	{0,1}, {0,2}, {0,3}
+	//	{1, 4},
+	//
+	//}
 }
 
 // 그래프 탐색 문제
