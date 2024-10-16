@@ -98,9 +98,13 @@ public:
 		//seen vertex, adjList.size
 
 		if (seen.size() == adjList.size())
+		{
 			cout << "모든 경로가 연결되어 있습니다." << endl;
+		}
 		else
+		{
 			cout << "모든 경로가 연결되어 있지 않습니다." << endl;
+		}
 
 		return seen.size() == adjList.size();
 	}

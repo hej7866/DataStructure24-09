@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\MyDeque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\MyDeque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\MyQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\MyQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{426D8BBF-E1CA-4947-9D6C-C50937414830}|DataStructure\\DataStructure.vcxproj|C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,19 +43,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Graph.h",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Graph.h",
-              "RelativeDocumentMoniker": "DataStructure\\Graph.h",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Graph.h",
-              "RelativeToolTip": "DataStructure\\Graph.h",
-              "ViewState": "AQIAAOcAAAAAAAAAAAAAABgAAAAUAAAA",
+              "Title": "MyDeque.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\MyDeque.h",
+              "RelativeDocumentMoniker": "DataStructure\\MyDeque.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\MyDeque.h",
+              "RelativeToolTip": "DataStructure\\MyDeque.h",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAmwHYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-08T07:00:54.046Z",
+              "WhenOpened": "2024-10-16T10:39:37.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyQueue.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\MyQueue.h",
+              "RelativeDocumentMoniker": "DataStructure\\MyQueue.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\MyQueue.h",
+              "RelativeToolTip": "DataStructure\\MyQueue.h",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAOUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-15T09:47:35.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Graph.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Graph.h",
+              "RelativeDocumentMoniker": "DataStructure\\Graph.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Graph.h",
+              "RelativeToolTip": "DataStructure\\Graph.h",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-08T07:00:54.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "tree.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\tree.h",
               "RelativeDocumentMoniker": "DataStructure\\tree.h",
@@ -59,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "heap.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\heap.h",
               "RelativeDocumentMoniker": "DataStructure\\heap.h",
@@ -77,9 +110,10 @@
               "RelativeDocumentMoniker": "DataStructure\\Main.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\DataStructure24-09\\DataStructure\\DataStructure\\Main.cpp",
               "RelativeToolTip": "DataStructure\\Main.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAAQAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-11T08:45:55.794Z"
+              "WhenOpened": "2024-09-11T08:45:55.794Z",
+              "EditorCaption": ""
             }
           ]
         }

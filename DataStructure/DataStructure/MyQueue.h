@@ -165,7 +165,7 @@ private:
 
 	QueueNode* front;
 	QueueNode* rear;
-	int			iCount;
+	int	iCount;
 
 public:
 	// 생성자 & 소멸자

@@ -32,7 +32,7 @@ int main()
 	//lecture6();
 	//IQueueExample();
 	//CommandSystemExample();
-	//IDequeExample();
+	IDequeExample();
 	//IteratorExample();
 	//PriorityQueueExample();
 	//lecture7();
@@ -42,6 +42,6 @@ int main()
 	//mapExample();
 	//HashExample();
 
-	GraphExample();
+	//GraphExample();
 
 }
